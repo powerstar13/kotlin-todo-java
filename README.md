@@ -9,3 +9,10 @@
 5. Todo
 6. api-test.http
 
+## 자바 프로젝트에 코틀린 설정 적용하기
+
+1. Kotlin DSL을 사용해 빌드 스크립트 마이그레이션
+    1. build.gradle (마이그레이션 전)
+        1. build.gralde.kts (마이그레이션 후)
+    2. settings.gradle (마이그레이션 전)
+        1. settings.gradle.kts (마이그레이션 후)
