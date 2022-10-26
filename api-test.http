@@ -7,10 +7,8 @@ Content-Type: application/json
   "description": "수학 숙제를 해야한다"
 }
 
-
 ### GET Todo List 조회
 GET localhost:8080/api/todos
-
 
 ### PUT Todo 수정
 PUT localhost:8080/api/todos/1
@@ -22,6 +20,5 @@ Content-Type: application/json
   "done": true
 }
 
-
 ### DELETE Todo 삭제
-DELETE localhost:8080/api/todos/2
+DELETE localhost:8080/api/todos/1
