@@ -16,3 +16,7 @@
         1. build.gralde.kts (마이그레이션 후)
     2. settings.gradle (마이그레이션 전)
         1. settings.gradle.kts (마이그레이션 후)
+
+## 리팩토링
+
+1. 컨트롤러 레이어 리팩토링
