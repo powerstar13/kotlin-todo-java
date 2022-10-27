@@ -14,7 +14,7 @@ import java.time.LocalDateTime
 
 @Service
 class TodoService(
-    val todoRepository: TodoRepository,
+    private val todoRepository: TodoRepository,
 ) {
     @Transactional(readOnly = true)
     fun findAll() =
@@ -45,7 +45,7 @@ class TodoService(
     fun update(
         id: Long,
         request: TodoRequest?
-    ) {
+    ): Todo {
         checkNotNull(request) { "TodoRequest is null" }
 
         return this.findById(id)
