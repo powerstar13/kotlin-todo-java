@@ -18,7 +18,7 @@ import org.springframework.web.bind.annotation.RestController
 @RestController
 @RequestMapping("/api/todos")
 class TodoController(
-    private val todoService: TodoService
+    private val todoService: TodoService,
 ) {
     @GetMapping
     fun getAll() =

@@ -4,7 +4,7 @@ import com.fastcampus.kotlinspring.todo.domain.Todo
 import com.fasterxml.jackson.annotation.JsonIgnore
 
 data class TodoListResponse(
-    val items: List<TodoResponse>
+    val items: List<TodoResponse>,
 ) {
     val size: Int
         @JsonIgnore
